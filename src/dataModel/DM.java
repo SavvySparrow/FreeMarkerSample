@@ -21,6 +21,8 @@ public class DM {
 		latest.setUrl("https://www.latestProduct.com");
 		latest.setName("Air-Fi");
 		root.put("latestProduct",latest);
+		root.put("repeat",new RMethod());
+		root.put("repeat1",new RMethod1());
 	}
 	
 	public Map<String,Object> getRoot(){

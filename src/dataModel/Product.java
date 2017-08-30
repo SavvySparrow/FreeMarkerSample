@@ -4,7 +4,7 @@ public class Product {
 	
 	private String url,name;
 	
-	public void setUrl(String url){
+	public void setUrl(String url) {
 		this.url = url;
 	}
 	

@@ -20,6 +20,8 @@ public class Stest {
 		
 		Writer out = new OutputStreamWriter(System.out);
 		temp.process(model.getRoot(), out);
+		out.flush();
+		out.close();
 		
 		Writer file = new FileWriter(new File("template.html"));
 		temp.process(model.getRoot(), file);
